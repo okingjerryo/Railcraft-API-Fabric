@@ -10,6 +10,8 @@ package mods.railcraft.api.core;
 import java.util.Arrays;
 
 import static mods.railcraft.api.core.RailcraftCore.InitStage.LOADING;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Created by CovertJaguar on 8/23/2016 for Railcraft.
@@ -50,5 +52,6 @@ public final class RailcraftCore {
 
     private RailcraftCore() {
     }
+    public static final Logger LOGGER = LogManager.getLogger("assets.railcraft-api");
 
 }
